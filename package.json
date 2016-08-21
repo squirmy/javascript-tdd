@@ -4,12 +4,14 @@
   "description": "An empty repo setup for tdd",
   "main": "app/index.js",
   "scripts": {
-    "test": "node jasmine-runner.js"
+    "test": "node jasmine-runner.js",
+    "test-watch": "watch 'npm -s test' {app,spec}/"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "jasmine": "^2.4.1",
-    "jasmine-spec-reporter": "^2.7.0"
+    "jasmine-spec-reporter": "^2.7.0",
+    "watch": "^0.19.2"
   }
 }
