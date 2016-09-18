@@ -1,7 +1,5 @@
-module.exports = {
+function FizzBuzz(input) {
+  return '';
+}
 
-  run: function() {
-    return 1;
-  }
-
-};
+module.exports = FizzBuzz;
