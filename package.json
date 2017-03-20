@@ -2,7 +2,7 @@
   "name": "javascript-tdd",
   "version": "1.0.0",
   "description": "An empty repo setup for tdd",
-  "main": "app/index.js",
+  "private": true,
   "scripts": {
 	"test": "mocha .",
 	"test:dev": "mocha --reporter nyan -w ."
