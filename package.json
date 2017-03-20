@@ -4,14 +4,13 @@
   "description": "An empty repo setup for tdd",
   "main": "app/index.js",
   "scripts": {
-    "test": "node jasmine-runner.js",
-    "test-watch": "watch 'npm -s test' {app,spec}/"
+	"test": "mocha .",
+	"test:dev": "mocha --reporter nyan -w ."
   },
-  "author": "",
+  "author": "ThoughtWorks LevelUp Team",
   "license": "MIT",
   "devDependencies": {
-    "jasmine": "^2.4.1",
-    "jasmine-spec-reporter": "^2.7.0",
-    "watch": "^0.19.2"
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
   }
 }
