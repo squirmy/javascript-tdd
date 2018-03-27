@@ -4,13 +4,12 @@
   "description": "An empty repo setup for tdd",
   "private": true,
   "scripts": {
-	"test": "mocha .",
-	"test:dev": "mocha --reporter nyan -w ."
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "author": "ThoughtWorks LevelUp Team",
   "license": "MIT",
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.2.0"
+    "jest": "^22.4.3"
   }
 }

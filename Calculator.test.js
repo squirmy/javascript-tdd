@@ -1,10 +1,5 @@
-const expect = require('chai').expect;
 const Calculator = require('./Calculator');
 
-describe('Calculator', () => {
-	context('#add', () => {
-		it('should be true', () => {
-			expect(new Calculator().add(1, 1)).to.equal(2);
-		});
-	});
+test('1 + 1 should be 2', () => {
+  expect(new Calculator().add(1, 1)).toBe(2);
 });
