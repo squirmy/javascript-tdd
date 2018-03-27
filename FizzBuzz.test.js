@@ -1,5 +1,5 @@
-const Calculator = require('./Calculator');
+const FizzBuzz = require('./FizzBuzz');
 
 test('1 + 1 should be 2', () => {
-  expect(new Calculator().add(1, 1)).toBe(2);
+  expect(new FizzBuzz().fizzBuzz()).toBe(null);
 });

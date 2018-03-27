@@ -1,7 +1,7 @@
-class Calculator {
-	add() {
-		return 2;
-	}
+class FizzBuzz {
+  fizzBuzz(number) {
+    return null;
+  }
 };
 
-module.exports = Calculator;
+module.exports = FizzBuzz;
